@@ -14,11 +14,11 @@
      margin: 0 auto;
      min-width: 375px;
      max-width: 798px;
-}
+ }
 
-.area1{
-         padding: 20px;
-}
+ .area1 {
+     padding: 20px;
+ }
 
  .logo_iner {
      display: inline-block;
@@ -98,12 +98,11 @@
      font-size: 16px;
  }
 
- input {    
+ input {
      -o-appearance: none;
      -webkit-appearance: none;
      -moz-appearance: none;
      appearance: none;
-     font-size: 15px;
      color: #222222;
      width: 100%;
      border: none;
@@ -112,44 +111,64 @@
      background: url(search.svg) left no-repeat;
      background-size: 33px;
      font-size: 16px;
+     font-weight: 300;
+     color: #717171;
      border-radius: 0px;
  }
 
-.bar{
-    width: 100%;
-    height: 10px;
-    background: #F5F5F5;
-}
+ input:focus-visible {
+     outline: none;
+ }
 
-.tag{
-    color: #DC000C;
-    font-weight: 700;padding: 20px 20px 0 20px;
-}
-.num{
-    border-bottom: 1px solid #E8E8E8;
-    text-align: justify;
-}
-.t7{
-    float: left;width: 90%;
-    font-weight: 800;
-}
-.num_title{
-    width: 100%;
-    display: inline-block;
-    padding: 20px 20px 0 20px;
-}
-.num_title img{
-    width: 15px;float: right;
-}
+ input::placeholder {
+     font-size: 16px;
+     font-weight: 300;
+     color: #717171;
+ }
 
-.t8{
-    float: clear;
-    font-size: 15px; 
-    line-height: 23px;
-    padding: 0 20px 20px 20px;
-}
-.map{
-    width: 100%;
-    height: 150px;
-    background: #ccc;
-}
+ .bar {
+     width: 100%;
+     height: 10px;
+     background: #F5F5F5;
+ }
+
+ .tag {
+     color: #DC000C;
+     font-weight: 700;
+     padding: 20px 20px 0 20px;
+ }
+
+ .num {
+     border-bottom: 1px solid #E8E8E8;
+     text-align: justify;
+ }
+
+ .t7 {
+     float: left;
+     width: 90%;
+     font-weight: 800;
+ }
+
+ .num_title {
+     width: 100%;
+     display: inline-block;
+     padding: 20px 20px 0 20px;
+ }
+
+ .num_title img {
+     width: 15px;
+     float: right;
+ }
+
+ .t8 {
+     float: clear;
+     font-size: 15px;
+     line-height: 23px;
+     padding: 0 20px 20px 20px;
+ }
+
+ .map {
+     width: 100%;
+     height: 150px;
+     background: #ccc;
+ }
