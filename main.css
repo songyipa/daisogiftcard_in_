@@ -98,7 +98,11 @@
      font-size: 16px;
  }
 
- input {
+ input {    
+     -o-appearance: none;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
      font-size: 15px;
      color: #222222;
      width: 100%;
@@ -108,6 +112,7 @@
      background: url(search.svg) left no-repeat;
      background-size: 33px;
      font-size: 16px;
+     border-radius: 0px;
  }
 
 .bar{
