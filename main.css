@@ -1,0 +1,150 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ * {
+     font-family: "Pretendard" !important;
+     font-weight: 400;
+     color: #333;
+     letter-spacing: -0.5px;
+     font-size: 16px;
+ }
+
+ body {
+     margin: 0 auto;
+     min-width: 375px;
+     max-width: 798px;
+}
+
+.area1{
+         padding: 20px;
+}
+
+ .logo_iner {
+     display: inline-block;
+     position: relative;
+     height: 80px;
+     width: 100%;
+ }
+
+ .logo {
+     width: 45px;
+     position: absolute;
+     left: 0px;
+ }
+
+ .arrow {
+     width: 45px;
+     position: absolute;
+     right: -13px;
+ }
+
+ .title {
+     height: 70px;
+     position: relative;
+ }
+
+ .title p {
+     position: absolute;
+     bottom: 0;
+ }
+
+ .t1 {
+     font-size: 24px;
+     font-weight: 400;
+     padding-right: 3px;
+ }
+
+ .t2 {
+     font-size: 35px;
+     font-weight: 800;
+     padding-bottom: 20px;
+
+ }
+
+ .t3 {
+     font-size: 16px;
+     color: #838383;
+     line-height: 25px;
+     padding-bottom: 40px;
+     padding-top: 10px;
+ }
+
+ select::-ms-expand {
+     display: none;
+ }
+
+ .select {
+     width: 100%;
+     -o-appearance: none;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     background: #F8F8F8 url(drop.svg) calc(100% - 10px) center no-repeat;
+     background-size: 25px;
+     padding: 17px 35px 17px 20px;
+     border-radius: 8px;
+     outline: 0 none;
+     border: none;
+     color: #717171;
+     font-size: 16px;
+ }
+
+
+
+ .search {
+     width: 100%;
+     margin: 8px 0 20px 0;
+     font-size: 16px;
+ }
+
+ input {
+     font-size: 15px;
+     color: #222222;
+     width: 100%;
+     border: none;
+     border-bottom: solid #707070 2px;
+     padding: 19px 0px 19px 37px;
+     background: url(search.svg) left no-repeat;
+     background-size: 33px;
+     font-size: 16px;
+ }
+
+.bar{
+    width: 100%;
+    height: 10px;
+    background: #F5F5F5;
+}
+
+.tag{
+    color: #DC000C;
+    font-weight: 700;padding: 20px 20px 0 20px;
+}
+.num{
+    border-bottom: 1px solid #E8E8E8;
+    text-align: justify;
+}
+.t7{
+    float: left;width: 90%;
+    font-weight: 800;
+}
+.num_title{
+    width: 100%;
+    display: inline-block;
+    padding: 20px 20px 0 20px;
+}
+.num_title img{
+    width: 15px;float: right;
+}
+
+.t8{
+    float: clear;
+    font-size: 15px; 
+    line-height: 23px;
+    padding: 0 20px 20px 20px;
+}
+.map{
+    width: 100%;
+    height: 150px;
+    background: #ccc;
+}
