@@ -18,13 +18,20 @@ body {
 
 .main_in {
     padding: 20px;
+    position: relative;
 }
 
 .main_in2 {
     padding: 20px;
     background: #F8F8F8;
 }
-
+.icon_bg{
+    position: absolute;
+    z-index: -1000;
+    right:-110px;
+    top:-40px;
+    width: 350px;
+}
 .area1 {
     padding: 20px;
 }
@@ -32,7 +39,7 @@ body {
 .logo_iner {
     display: inline-block;
     position: relative;
-    height:70px;
+    height:150px;
     width: 100%;
 }
 
@@ -45,11 +52,11 @@ body {
 
 .title {
     height: 70px;
-    text-align: right;
+    text-align: left;
 }
 
 .title p {
-text-align: right;
+text-align: left;
 }
 
 .t1 {
@@ -75,9 +82,9 @@ text-align: right;
     font-size: 16px;
     color: #DC000C;
     line-height: 25px;
-    padding-bottom: 10px;
+    padding-bottom:15px;
     padding-top: 15px;
-    text-align: right
+   text-align: left;
 }
 
 
@@ -138,17 +145,27 @@ text-align: right;
     clear: both;
 }
 .card_in{
+    background: #fff;
+    border-radius: 6px;
     text-align: center;
+    margin-top: 15px;
 }
 .card{
-    padding: 20px 0;
+    width: 100%;
     max-width:500px;
+    position: relative;
+    top: 8px;
 }
 .input2 .card_text{
-    padding: 10px;
-    background: #e8e8e8;
-    font-size: 12px;
+    padding: 10px 0 20px 0;
+border-top: 1px solid #e3e3e3;
+    font-size: 14px;
     color: #7c7c7c;
+    border-radius: 0 0 6px 6px;
+        position: relative;
+   bottom: 0px;
+    font-weight: 400;
+    display: inline-block
 }
 .check__line input[type="checkbox"] {
     position: absolute;
@@ -159,6 +176,7 @@ text-align: right;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
+    
 }
 
 .check__line input[type="checkbox"] + label {
