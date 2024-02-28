@@ -15,8 +15,7 @@ body {
     margin: 0 auto;
     max-width: 768px;
     min-width: 320px;
-    border-right: 1px solid #f0f0f0;
-    border-left: 1px solid #f0f0f0;
+
 }
 
 .main_in {
@@ -25,17 +24,23 @@ body {
     background-repeat: no-repeat;
 background-position: right -80px top;
     background-size:270px;
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
 }
 
 .main_in2 {
     padding: 20px;
     background: #F8F8F8;
+        border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
 }
 
 .main_in3 {
     padding: 20px;
     background: #fff;
     position: relative;
+        border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
 }
 
 .icon_bg{
