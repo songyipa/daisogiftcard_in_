@@ -32,12 +32,12 @@ body {
 .logo_iner {
     display: inline-block;
     position: relative;
-    height:80px;
+    height:130px;
     width: 100%;
 }
 
 .logo {
-    width: 45px;
+    width: 55px;
     position: absolute;
     left: 0px;
 }
@@ -77,7 +77,7 @@ body {
     font-size: 16px;
     color: #DC000C;
     line-height: 25px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     padding-top: 10px;
 }
 
@@ -95,7 +95,7 @@ body {
     padding: 16px 0px 16px 0px;
     background: #F8F8F8;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 0px;
     transition: all 0.3s;
 }
