@@ -1,174 +1,240 @@
- * {
-     box-sizing: border-box;
- }
+* {
+    box-sizing: border-box;
+}
 
- * {
-     font-family: "Pretendard" !important;
-     font-weight: 400;
-     color: #333;
-     letter-spacing: -0.5px;
-     font-size: 16px;
- }
+* {
+    font-family: "Pretendard" !important;
+    font-weight: 400;
+    color: #333;
+    letter-spacing: -0.5px;
+    font-size: 16px;
+}
 
- body {
-     margin: 0 auto;
-     min-width: 375px;
-     max-width: 798px;
- }
+body {
+    margin: 0 auto;
+    max-width: 798px;
+    min-width: 320px;
+}
 
- .area1 {
-     padding: 20px;
- }
+.main_in {
+    padding: 20px;
+}
 
- .logo_iner {
-     display: inline-block;
-     position: relative;
-     height: 80px;
-     width: 100%;
- }
+.main_in2 {
+    padding: 20px;
+    background: #F8F8F8;
+}
 
- .logo {
-     width: 45px;
-     position: absolute;
-     left: 0px;
- }
+.area1 {
+    padding: 20px;
+}
 
- .arrow {
-     width: 45px;
-     position: absolute;
-     right: -13px;
- }
+.logo_iner {
+    display: inline-block;
+    position: relative;
+    height:80px;
+    width: 100%;
+}
 
- .title {
-     height: 70px;
-     position: relative;
- }
+.logo {
+    width: 45px;
+    position: absolute;
+    left: 0px;
+}
 
- .title p {
-     position: absolute;
-     bottom: 0;
- }
 
- .t1 {
-     font-size: 24px;
-     font-weight: 400;
-     padding-right: 3px;
- }
+.title {
+    height: 70px;
+    position: relative;
+}
 
- .t2 {
-     font-size: 35px;
-     font-weight: 800;
-     padding-bottom: 20px;
+.title p {
+    position: absolute;
+    bottom: 0;
+}
 
- }
+.t1 {
+    font-size: 24px;
+    font-weight: 400;
+    padding-right: 3px;
+}
 
- .t3 {
-     font-size: 16px;
-     color: #838383;
-     line-height: 25px;
-     padding-bottom: 40px;
-     padding-top: 10px;
- }
+.t2 {
+    font-size: 35px;
+    font-weight: 800;
+    padding-bottom: 20px;
 
- select::-ms-expand {
-     display: none;
- }
+}
 
- .select {
-     width: 100%;
-     -o-appearance: none;
-     -webkit-appearance: none;
-     -moz-appearance: none;
-     appearance: none;
-     background: #F8F8F8 url(drop.svg) calc(100% - 10px) center no-repeat;
-     background-size: 25px;
-     padding: 17px 35px 17px 20px;
-     border-radius: 8px;
-     outline: 0 none;
-     border: none;
-     color: #717171;
-     font-size: 16px;
- }
+.t22 {
+    font-size: 35px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    padding-right: 8px;
+}
+
+.t3 {
+    font-size: 16px;
+    color: #DC000C;
+    line-height: 25px;
+    padding-bottom: 60px;
+    padding-top: 10px;
+}
 
 
 
- .search {
-     width: 100%;
-     margin: 8px 0 20px 0;
-     font-size: 16px;
- }
+.textarea {
+    -o-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #606060;
+    width: 100%;
+    border: none;
+    border-bottom: solid #C6C6C6 2px;
+    padding: 16px 0px 16px 0px;
+    background: #F8F8F8;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 0px;
+    transition: all 0.3s;
+}
 
- input {
-     -o-appearance: none;
-     -webkit-appearance: none;
-     -moz-appearance: none;
-     appearance: none;
-     color: #222222;
-     width: 100%;
-     border: none;
-     border-bottom: solid #707070 2px;
-     padding: 19px 0px 19px 37px;
-     background: url(search.svg) left no-repeat;
-     background-size: 33px;
-     font-size: 16px;
-     font-weight: 300;
-     color: #717171;
-     border-radius: 0px;
- }
+.textarea:focus-visible {
+    outline: none;
+    border-bottom: solid #DC000C 2px;
+}
 
- input:focus-visible {
-     outline: none;
- }
+.textarea::placeholder {
+    font-size: 16px;
+    font-weight: 300;
+    color: #C6C6C6;
+}
 
- input::placeholder {
-     font-size: 16px;
-     font-weight: 300;
-     color: #717171;
- }
+.input1 p{
+ font-weight:600;padding-bottom: 10px;
+}
 
- .bar {
-     width: 100%;
-     height: 10px;
-     background: #F5F5F5;
- }
+.input1 {
+    padding-bottom: 50px;
+}
 
- .tag {
-     color: #DC000C;
-     font-weight: 700;
-     padding: 20px 20px 0 20px;
- }
+.input2 {
+    clear: both;
+    padding-top: 50px;
+}
+.input2 p{
+ font-weight:600;
+    padding-bottom: 10px;
+}
 
- .num {
-     border-bottom: 1px solid #E8E8E8;
-     text-align: justify;
- }
+.check__line {
+    padding: 10px 0;
+    width: 33.3%;
+    float: left;
+}
+.check__line2 {
+    padding: 10px 0;
+    width: 100%;
+    clear: both;
+}
+.card_in{
+    text-align: center;
+}
+.card{
+    padding: 20px 0;
+    max-width:500px;
+}
+.card_text{
+    padding: 10px;
+    background: #e8e8e8;
+    font-size: 14px;
+    color: #7c7c7c;
+}
+.check__line input[type="checkbox"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
 
- .t7 {
-     float: left;
-     width: 90%;
-     font-weight: 800;
- }
+.check__line input[type="checkbox"] + label {
+    display: inline-block;
+    position: relative;
+    padding-left: 26px;
+    cursor: pointer;
+}
 
- .num_title {
-     width: 100%;
-     display: inline-block;
-     padding: 20px 20px 0 20px;
- }
+.check__line input[type="checkbox"] + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 2px solid #ccc;
+}
 
- .num_title img {
-     width: 15px;
-     float: right;
- }
+/* 보여질 부분의 스타일을 추가하면 된다. */
+.check__line input[type="checkbox"]:checked + label:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: url(check.svg) #DC000C;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 2px solid #DC000C;
+}
 
- .t8 {
-     float: clear;
-     font-size: 15px;
-     line-height: 23px;
-     padding: 0 20px 20px 20px;
- }
+label span {
+    letter-spacing: -1px;
+    color: rgba(0, 0, 0, 0.5);
+}
 
- .map {
-     width: 100%;
-     height: 150px;
-     background: #ccc;
- }
+
+[type="radio"] {
+    appearance: none;
+    border: max(2px) solid #ccc;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+[type="radio"]:checked {
+    border: 6px solid #DC000C;
+}
+.s_logo{
+    width: 150px; 
+    position: absolute;
+    right: 20px;
+}
+.t4{
+    padding-top: 59px;
+    color: #8e8e8e;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.bt{
+    padding: 30px;
+    text-align: center;
+    background: #DC000C;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 6px;
+    color: #fff;
+    
+    
+}
