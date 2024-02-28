@@ -18,19 +18,27 @@ body {
 
 .main_in {
     padding: 20px;
-    position: relative;
+    background: url(icon.svg) ;
+    background-repeat: no-repeat;
+    background-position: 150px -30px
 }
 
 .main_in2 {
     padding: 20px;
     background: #F8F8F8;
 }
+
+.main_in3 {
+    padding: 20px;
+}
+
 .icon_bg{
     position: absolute;
     z-index: -1000;
     right:-110px;
     top:-40px;
     width: 350px;
+    
 }
 .area1 {
     padding: 20px;
@@ -60,20 +68,20 @@ text-align: left;
 }
 
 .t1 {
-    font-size: 24px;
+    font-size: 33px;
     font-weight: 400;
     padding-right: 3px;
 }
 
 .t2 {
-    font-size: 33px;
+    font-size: 35px;
     font-weight: 800;
     padding-bottom: 20px;
 
 }
 
 .t22 {
-    font-size: 30px;
+    font-size: 33px;
     font-weight: 300;
     padding-bottom: 20px;
 }
@@ -149,23 +157,21 @@ text-align: left;
     border-radius: 6px;
     text-align: center;
     margin-top: 15px;
+    padding: 20px 30px;
 }
 .card{
     width: 100%;
     max-width:500px;
     position: relative;
-    top: 8px;
+    top: -3px;
 }
 .input2 .card_text{
-    padding: 10px 0 20px 0;
-border-top: 1px solid #e3e3e3;
+    padding: 20px 0 0 0;
+border-top: 1px solid #eaeaea;
     font-size: 14px;
     color: #7c7c7c;
     border-radius: 0 0 6px 6px;
-        position: relative;
-   bottom: 0px;
     font-weight: 400;
-    display: inline-block
 }
 .check__line input[type="checkbox"] {
     position: absolute;
